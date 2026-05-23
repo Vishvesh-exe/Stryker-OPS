@@ -1,13 +1,10 @@
 import express from 'express';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { createServer as createViteServer } from 'vite';
 import dotenv from 'dotenv';
 import crypto from 'crypto';
 
 dotenv.config();
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function startServer() {
   const app = express();
