@@ -1,0 +1,6 @@
+{
+  "name": "StadiumFlow",
+  "description": "An integrated, real-time command platform to unify ticketing, dynamically route crowd flow, and automate emergency responses for cricket stadiums.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
